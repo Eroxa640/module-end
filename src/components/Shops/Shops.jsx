@@ -4,13 +4,13 @@ import { useSelector, useDispatch } from "react-redux";
 import { productFetch } from "../../store/reducers/shop.reducer";
 
 function Shops() {
-  const dispatch = useDispatch();
-  const store = useSelector((store) => store);
-  const data = store.data.products;
-  useEffect(() => {
-    dispatch(productFetch());
-  }, [dispatch]);
-  console.log(data);
+  // const dispatch = useDispatch();
+  // const store = useSelector((store) => store);
+  // const data = store.data.products;
+  // useEffect(() => {
+  //   dispatch(productFetch());
+  // }, [dispatch]);
+  // console.log(data);
   return (
     <div className={styles.shop}>
       <div className={styles.container}>
