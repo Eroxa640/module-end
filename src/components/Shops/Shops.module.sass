@@ -1,3 +1,72 @@
 .shop
-  max-width: calc( 100% - 300px )
+  max-width: calc( 100% - 400px )
   margin: 0 auto
+.shop__blocks
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 18px
+.shop__item
+  max-width: 100%
+  min-height: 400px
+  background-color: #FFFFFF
+  border-radius: 6px
+.item__info
+  padding: 91px 22px 25px 25px
+.image
+  text-align: center
+  height: 100%
+.item__title
+  font-family: "Arvo", sans-serif
+  font-style: normal
+  font-size: 22px
+  line-height: 32px
+  font-weight: 400
+  color: #2c2c2c
+  cursor: pointer
+  margin-top: 45px
+.item__category
+  font-family: "Open Sans", sans-serif
+  font-style: normal
+  font-size: 14px
+  line-height: 26px
+  font-weight: 400
+  color: #9FA3A7
+.item__price
+  font-family: "Montserrat", sans-serif
+  font-style: normal
+  font-size: 16px
+  line-height: 20px
+  font-weight: 700
+  color: #212121
+.price__info
+  display: flex
+  justify-content: space-between
+.change__bg
+  background-color: #2C2C2C
+.change__color
+  color: white
+  margin: 0
+.flex
+  display: flex
+  flex-direction: column
+  text-align: center
+.shop__tv
+  grid-column-start: -3
+  grid-column-end: -1
+.flex__revers
+  display: flex
+  flex-direction: column-reverse
+  padding-top: 60px
+.removeMargin
+  margin: 0
+.positionRelative
+  position: relative
+.position
+  position: absolute
+  left: 20px
+  bottom: 20px
+.imgTv
+  width: 100%
+  min-height: 100%
+
+@media screen and ( max-width: 1000px )
